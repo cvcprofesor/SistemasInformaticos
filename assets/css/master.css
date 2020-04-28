@@ -40,12 +40,18 @@ footer img:nth-child(1), img:nth-child(2) {
   padding-right: 2em;
 }
 
+
 /* Media queries*/
 
 @media (max-width: 768px) {
   body{
     align-items: start;
     background-color: green;
+  }
+
+  p{
+    font-size: 200px;
+    color: blue;
   }
 
   main img{
