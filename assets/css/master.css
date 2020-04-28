@@ -45,6 +45,7 @@ footer img:nth-child(1), img:nth-child(2) {
 @media (max-width: 768px) {
   body{
     align-items: start;
+    background-color: green;
   }
 
   main img{
