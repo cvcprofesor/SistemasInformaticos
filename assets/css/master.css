@@ -14,6 +14,7 @@ body{
 
   height: 100vh;
   justify-items: center;
+  align-items: center;
 }
 
 nav{
@@ -22,7 +23,6 @@ nav{
 
 main{
   grid-area: main;
-
 }
 main img{
   width: 50vw;
@@ -43,8 +43,16 @@ footer img:nth-child(1), img:nth-child(2) {
 /* Media queries*/
 
 @media (max-width: 768px) {
+  body{
+    align-items: start;
+  }
 
   main img{
-    width: 75vw;
+    width: 90vw;
   }
+
+  footer img{
+    width: 5rem;
+  }
+
 }
