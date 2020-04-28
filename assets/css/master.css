@@ -40,6 +40,10 @@ footer img:nth-child(1), img:nth-child(2) {
   padding-right: 2em;
 }
 
+p{
+  font-size: 200px;
+  color: blue;
+}
 
 /* Media queries*/
 
@@ -49,10 +53,7 @@ footer img:nth-child(1), img:nth-child(2) {
     background-color: green;
   }
 
-  p{
-    font-size: 200px;
-    color: blue;
-  }
+
 
   main img{
     width: 90vw;
