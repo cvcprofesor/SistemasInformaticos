@@ -40,6 +40,11 @@ footer img:nth-child(1), img:nth-child(2) {
   padding-right: 2em;
 }
 
-.logo{
-    width: 50%;
+/* Media queries*/
+
+@media (max-width: 768px) {
+
+  main img{
+    width: 75vw;
+  }
 }
