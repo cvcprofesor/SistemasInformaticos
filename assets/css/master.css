@@ -43,7 +43,7 @@ footer img:nth-child(1), img:nth-child(2) {
 /* Media queries*/
 
 /* iPhone 6, 7, 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* @media only screen and (min-device-width: 375px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
   body{
     align-items: start;
   }
@@ -54,10 +54,10 @@ footer img:nth-child(1), img:nth-child(2) {
   footer img{
     width: 8rem;
   }
-}
+} */
 
 
-@media (max-width: 768px) {
+@media (max-width: 896px) {
   body{
     align-items: start;
   }
@@ -67,5 +67,9 @@ footer img:nth-child(1), img:nth-child(2) {
 
   footer img{
     width: 5rem;
+  }
+
+  footer img:nth-child(1), img:nth-child(2) {
+    padding-right: 1em;
   }
 }
