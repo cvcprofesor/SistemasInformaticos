@@ -56,11 +56,11 @@ footer img:nth-child(1), img:nth-child(2) {
   }
 } */
 
-
 @media (max-width: 896px) {
   body{
     align-items: start;
   }
+
   main img{
     width: 90vw;
   }
@@ -71,5 +71,11 @@ footer img:nth-child(1), img:nth-child(2) {
 
   footer img:nth-child(1), img:nth-child(2) {
     padding-right: 1em;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 768px){
+  footer img{
+    width: 4rem;
   }
 }
